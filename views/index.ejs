@@ -1,0 +1,33 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>deer</title>
+  <style>
+  body{
+    background-image: url(https://booth.pximg.net/2e819112-0bc9-46ea-8eda-eb3e69b275fe/i/3135646/5f5a70e3-6d40-4318-ab3a-4ecbb3b82bf0_base_resized.jpg);
+  }
+  </style>
+</head>
+
+<body>
+元ネタ：<a href="https://www.youtube.com/watch?v=dCEMSaho0io">テレビアニメ「しかのこのこのここしたんたん」OPテーマ「シカ色デイズ」イントロ耐久1時間</a><br><br>
+
+  <button class="send-button1">しか</button>
+  <button class="send-button2">のこ</button>
+  <button class="send-button3">こし</button>
+  <button class="send-button4">たん</button>
+  <button class="send-button5">おうちゃくする</button>
+  <button class="send-button6">ほろぼす</button>
+  <ul class="user-list">
+    <% for (const user of users) { %>
+      <li class="user-name"><%= user %></li>
+    <% } %>
+  </ul> 
+  <script src="/static/index.js" defer></script>
+</body>
+
+</html>
