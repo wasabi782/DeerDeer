@@ -1,5 +1,3 @@
-# hosei-webservice
-
 ## 準備
 
 dockerを使ってmongoDBを起動する
