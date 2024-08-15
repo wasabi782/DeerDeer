@@ -12,6 +12,7 @@ serverを起動する
 $ npm install
 $ node index.js
 ```
+http://localhost:3000 にアクセスする
 
 # 使い方
 ボタンを使って言葉遊びが出来ます。
